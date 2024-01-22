@@ -1,0 +1,37 @@
+algoritmo Acordar
+
+// Declarando as variáveis
+var
+   despertador: logico
+   banhoTomado, cafeDaManhaPreparado: logico
+
+// Inicializando variáveis
+despertador <- verdadeiro
+banhoTomado <- falso
+cafeDaManhaPreparado <- falso
+
+// Início do algoritmo
+inicio
+   // Verificando se o despertador está ligado
+   se despertador = verdadeiro entao
+      escreva("1. Despertador está ligado. Hora de acordar!")
+
+      // Indo para o banheiro
+      escreva("2. Levantar da cama e ir para o banheiro.")
+      escreva("3. Tomar banho.")
+      banhoTomado <- verdadeiro
+
+      // Preparando o café da manhã
+      escreva("4. Ir para a cozinha.")
+      escreva("5. Preparar o café da manhã.")
+      cafeDaManhaPreparado <- verdadeiro
+
+      // Concluindo o processo de acordar
+      escreva("6. Café da manhã pronto. Dia começou!")
+
+   senao
+      // Se o despertador não estiver ligado, ainda está dormindo
+      escreva("1. Despertador não está ligado. Continuar dormindo.")
+   
+   fimse
+fimalgoritmo
