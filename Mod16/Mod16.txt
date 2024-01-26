@@ -1,0 +1,24 @@
+1- Padrão de Projeto: Injeção de Dependência
+O padrão de injeção de dependência opera com base em abstrações, que podem ser tanto classes abstratas quanto interfaces, conforme discutido nos módulos anteriores:
+programar para uma interface e não para uma implementação.
+
+A injeção de dependência pode ser implementada de três maneiras:
+1. injeção por construtor (constructor injection),
+2. injeção por propriedade ou getters e setters (no caso do Java, setter injection), e
+3. injeção por interface (interface injection).
+
+2- Como o Spring Gerencia a Injeção de Dependências
+O Spring gerencia a injeção de dependências por meio de um contêiner conhecido como Spring IoC Container, também chamado de Spring Context.
+Este contêiner é responsável por gerenciar automaticamente todas as dependências do projeto.
+Os objetos sob gestão do contêiner Spring são denominados Beans.
+Durante a execução, uma aplicação pode ter vários beans ativos e gerenciados pelo Spring.
+A distinção reside no fato de que esses beans são essencialmente os mesmos objetos utilizados no projeto, mas suas classes são marcadas com uma anotação especial que os designa para gerenciamento pelo IoC container.
+
+3- Entendimento da Injeção de Dependências
+A compreensão adquirida é que a injeção de dependências tem como objetivo principal reduzir ao máximo o acoplamento no código.
+É imperativo escrever código que seja facilmente mantido, modificado e capaz de incluir/excluir funcionalidades.
+Concluo que a Injeção de Dependências é um padrão aplicado nos projetos para proporcionar um código mais legível, interpretável e de fácil manutenção, contribuindo para a desvinculação do código.
+A injeção de dependências é uma técnica na qual um objeto (ou método estático) fornece as dependências de outro objeto.
+Essas dependências referem-se a objetos utilizáveis, ou seja, serviços.
+Para tal propósito, são empregadas uma das três formas mencionadas na resposta 1, sendo a terceira opção a mais apropriada.
+Nessa abordagem, um objeto que implementa a interface é criado, e a dependência é injetada em qualquer cliente que lhe seja fornecido.
