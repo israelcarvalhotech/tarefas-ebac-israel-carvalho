@@ -1,0 +1,22 @@
+Expressões Lambda:
+
+As expressões lambda são como pequenos blocos de código que podem representar funções ou métodos anônimos, sem a necessidade de um nome específico e sem pertencer a uma classe.
+Ao contrário das classes em Java, que requerem a definição de atributos e métodos dentro do corpo, as expressões lambda são mais concisas, dispensando a declaração de nome, tipo de retorno e modificador de acesso.
+A ideia é que a função seja definida no mesmo local em que será utilizada.
+
+Do ponto de vista conceitual, as "lambdas expressions" representam instâncias de interfaces funcionais, sendo necessário marcá-las com a notação @FuncionalInterface.
+Essas expressões são utilizadas para implementar métodos definidos por interfaces funcionais.
+
+Características das Expressões Lambda:
+
+Redução significativa das linhas de código: As expressões lambda proporcionam uma notável redução na quantidade de classes criadas e, por conseguinte, na quantidade de linhas de código geradas, resultando em maior produtividade.
+Tipo do parâmetro é opcional: A informação do tipo dos parâmetros torna-se opcional, pois o compilador pode inferir automaticamente o tipo com base nos parâmetros.
+Parênteses ao redor do parâmetro são opcionais: A declaração do parâmetro torna-se opcional, exceto ao lidar com vários parâmetros, onde os parênteses são necessários.
+Chaves ({}) delimitando o corpo são opcionais: Se o corpo da expressão contiver apenas uma única instrução, as chaves não são necessárias.
+Palavra-chave "return" é opcional: O compilador pode automaticamente retornar o valor se o corpo da expressão consistir em uma única instrução, sendo necessário o uso de chaves para indicar que a expressão retorna um valor.
+Em relação à minha opinião sobre Expressões Lambda, acredito que elas tornam o código mais conciso, facilitando a leitura. Não as considero difíceis, pois sua sintaxe me lembra um pouco a linguagem JavaScript.
+
+
+
+
+
