@@ -1,0 +1,35 @@
+O que é o PostgreSQL:
+O PostgreSQL, também conhecido como Postgres, é um sistema de gerenciamento de banco de dados relacional de código aberto.
+Ele foi inicialmente desenvolvido na Universidade da Califórnia, em Berkeley, nos anos 1980, e desde então tornou-se um dos sistemas de banco de dados mais avançados e poderosos disponíveis.
+
+Para que serve:
+O PostgreSQL é usado para armazenar e gerenciar dados de forma eficiente e segura.
+Ele fornece um ambiente robusto para a criação, leitura, atualização e exclusão de dados, tornando-o adequado para uma variedade de aplicações, desde pequenos projetos até grandes sistemas empresariais.
+
+O que faz:
+
+Sistema de Gerenciamento de Banco de Dados (SGBD): O PostgreSQL é um SGBD relacional que organiza dados em tabelas, permitindo relacionamentos complexos entre elas.
+
+Compatibilidade ANSI-SQL: Segue os padrões do SQL (Structured Query Language), facilitando a migração de sistemas de outros bancos de dados relacionais.
+
+Extensibilidade: Oferece suporte à criação de funções e procedimentos armazenados, permitindo que os usuários estendam suas capacidades.
+
+Integridade Referencial e Transações: Mantém a integridade dos dados por meio de restrições, triggers e suporta transações ACID (Atomicidade, Consistência, Isolamento e Durabilidade).
+
+Suporte a Tipos de Dados Complexos: Além dos tipos de dados padrão, o PostgreSQL oferece suporte a tipos de dados complexos, como arrays, hstore (um tipo de armazenamento de chave-valor) e JSON.
+
+Replicação e Alta Disponibilidade: Fornece mecanismos robustos para replicação e garantia de alta disponibilidade.
+
+Licença Open Source: Distribuído sob a licença PostgreSQL, que permite seu uso, modificação e distribuição livremente.
+
+Relevância:
+
+Comunidade Ativa: O PostgreSQL possui uma comunidade ativa de desenvolvedores e usuários que contribuem para seu aprimoramento contínuo.
+
+Versatilidade e Escalabilidade: É amplamente utilizado em diferentes setores devido à sua capacidade de lidar com grandes volumes de dados e complexidade.
+
+Segurança: O PostgreSQL oferece recursos avançados de segurança, incluindo autenticação e autorização flexíveis, garantindo a proteção dos dados.
+
+Desempenho: O otimizador de consultas avançado e as técnicas de indexação eficientes contribuem para um alto desempenho em operações de consulta.
+
+Em resumo, o PostgreSQL é uma poderosa solução de banco de dados relacional, conhecida por sua confiabilidade, extensibilidade e conformidade com padrões SQL, sendo uma escolha popular para uma ampla gama de aplicações.
